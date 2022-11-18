@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#container {
+  position: relative;
+  height: 500px;
+  width: 100vw;
+  background: url('img/torre-eiffel.jpg');
+  background-size: cover;
+}
+h1,
+h2 {
+  color: rgb(255, 170, 0);
+  padding-top: 60px;
+}
+
+.description {
+  margin-top: 20px;
+  display: flex;
+  gap: 10%;
+}
+img {
+  border-radius: 10px 10px 0 0;
+}
+
+.museu {
+  padding: 2px 16px;
+}
+.museu:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.menina {
+  padding: 2px 16px;
+}
+.menina:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.arco {
+  padding: 2px 16px;
+}
+.arco:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.museu {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 27%;
+  display: inline-block;
+}
+
+.menina {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 27%;
+  display: inline-block;
+}
+
+.arco {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 27%;
+  display: inline-block;
+}
+
+footer {
+  background: #ffab62;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+}
