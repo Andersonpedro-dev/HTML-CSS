@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: #144194;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  float: left;
+  color: #fff;
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+h2 {
+  padding: 20px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+  padding-top: 20px;
+  background-color: #144194;
+  text-align: center;
+  width: 100%;
+  height: 120px;
+  color: white;
+}
+
+.description {
+  display: flex;
+  justify-content: space-around;
+  height: 650px;
+}
+img {
+  border-radius: 10px 10px 0 0;
+}
+
+.judaico {
+  padding: 2px 10px;
+  border-radius: 5px;
+  height: 500px;
+}
+.judaico:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.rua {
+  padding: 2px 10px;
+  border-radius: 5px;
+  height: 500px;
+}
+.rua:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.torre {
+  padding: 2px 10px;
+  border-radius: 5px;
+  height: 500px;
+}
+.torre:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.judaico {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+  display: inline-block;
+}
+
+.rua {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+  display: inline-block;
+}
+
+.torre {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+  display: inline-block;
+}
